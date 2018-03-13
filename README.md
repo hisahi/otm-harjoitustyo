@@ -13,3 +13,5 @@ tekstiä
 
 jokin muutos
 
+tee paikalliseen repositorioon muutos tiedostoon README.md, lisää ja committoi muutos
+
