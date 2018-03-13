@@ -1,0 +1,151 @@
+kurssit
+└ otm2018
+    └ viikko1
+        ├ huonekalut
+        │   ├ huonekalut.db
+        │   ├ pom.xml
+        │   ├ Procfile
+        │   ├ src
+        │   │   └ main
+        │   │       ├ java
+        │   │       │   └ tikape
+        │   │       │       └ huonekalut
+        │   │       │           └ Main.java
+        │   │       └ resources
+        │   │           └ templates
+        │   │               └ index.html
+        │   └ target
+        │       ├ classes
+        │       │   ├ templates
+        │       │   │   └ index.html
+        │       │   └ tikape
+        │       │       └ huonekalut
+        │       │           └ Main.class
+        │       ├ dependency
+        │       │   ├ attoparser-2.0.3.RELEASE.jar
+        │       │   ├ gson-2.8.2.jar
+        │       │   ├ javassist-3.20.0-GA.jar
+        │       │   ├ javax.servlet-api-3.1.0.jar
+        │       │   ├ jetty-client-9.4.6.v20170531.jar
+        │       │   ├ jetty-http-9.4.6.v20170531.jar
+        │       │   ├ jetty-io-9.4.6.v20170531.jar
+        │       │   ├ jetty-security-9.4.6.v20170531.jar
+        │       │   ├ jetty-server-9.4.6.v20170531.jar
+        │       │   ├ jetty-servlet-9.4.6.v20170531.jar
+        │       │   ├ jetty-util-9.4.6.v20170531.jar
+        │       │   ├ jetty-webapp-9.4.6.v20170531.jar
+        │       │   ├ jetty-xml-9.4.6.v20170531.jar
+        │       │   ├ ognl-3.1.12.jar
+        │       │   ├ postgresql-42.2.1.jar
+        │       │   ├ slf4j-api-1.7.13.jar
+        │       │   ├ slf4j-simple-1.7.25.jar
+        │       │   ├ spark-core-2.7.1.jar
+        │       │   ├ spark-template-thymeleaf-2.7.1.jar
+        │       │   ├ sqlite-jdbc-3.21.0.1.jar
+        │       │   ├ thymeleaf-3.0.5.RELEASE.jar
+        │       │   ├ thymeleaf-extras-java8time-3.0.0.RELEASE.jar
+        │       │   ├ unbescape-1.1.4.RELEASE.jar
+        │       │   ├ websocket-api-9.4.6.v20170531.jar
+        │       │   ├ websocket-client-9.4.6.v20170531.jar
+        │       │   ├ websocket-common-9.4.6.v20170531.jar
+        │       │   ├ websocket-server-9.4.6.v20170531.jar
+        │       │   └ websocket-servlet-9.4.6.v20170531.jar
+        │       ├ generated-sources
+        │       │   └ annotations
+        │       ├ huonekalut-1.0-SNAPSHOT.jar
+        │       ├ maven-archiver
+        │       │   └ pom.properties
+        │       ├ surefire
+        │       └ test-classes
+        ├ SqliteJava
+        │   ├ palkkatilastot.db
+        │   ├ pom.xml
+        │   ├ src
+        │   │   ├ main
+        │   │   │   └ java
+        │   │   │       └ app
+        │   │   │           ├ Collector.java
+        │   │   │           ├ Command.java
+        │   │   │           ├ db
+        │   │   │           │   └ Database.java
+        │   │   │           ├ Main.java
+        │   │   │           └ pojo
+        │   │   │               ├ EmployeeDao.java
+        │   │   │               └ Employee.java
+        │   │   └ test
+        │   │       └ java
+        │   ├ target
+        │   │   ├ classes
+        │   │   │   └ app
+        │   │   │       ├ Collector.class
+        │   │   │       ├ Command.class
+        │   │   │       ├ db
+        │   │   │       │   └ Database.class
+        │   │   │       ├ Main.class
+        │   │   │       └ pojo
+        │   │   │           ├ Employee.class
+        │   │   │           └ EmployeeDao.class
+        │   │   ├ generated-sources
+        │   │   │   └ annotations
+        │   │   └ test-classes
+        │   └ test2.db
+        ├ tikape-web-opiskelijat
+        │   ├ opiskelijat.db
+        │   ├ pom.xml
+        │   ├ src
+        │   │   ├ main
+        │   │   │   ├ java
+        │   │   │   │   └ tikape
+        │   │   │   │       ├ database
+        │   │   │   │       │   ├ collector
+        │   │   │   │       │   │   └ OpiskelijaCollector.java
+        │   │   │   │       │   ├ Collector.java
+        │   │   │   │       │   ├ Dao.java
+        │   │   │   │       │   ├ Database.java
+        │   │   │   │       │   └ OpiskelijaDao.java
+        │   │   │   │       ├ Main.java
+        │   │   │   │       └ pojo
+        │   │   │   │           └ Opiskelija.java
+        │   │   │   └ resources
+        │   │   │       └ templates
+        │   │   │           └ index.html
+        │   │   └ test
+        │   │       └ java
+        │   └ target
+        │       ├ classes
+        │       │   ├ templates
+        │       │   │   └ index.html
+        │       │   └ tikape
+        │       │       ├ database
+        │       │       │   ├ collector
+        │       │       │   │   └ OpiskelijaCollector.class
+        │       │       │   ├ Collector.class
+        │       │       │   ├ Dao.class
+        │       │       │   ├ Database.class
+        │       │       │   └ OpiskelijaDao.class
+        │       │       ├ Main.class
+        │       │       └ pojo
+        │       │           └ Opiskelija.class
+        │       ├ generated-sources
+        │       │   └ annotations
+        │       └ test-classes
+        └ Unicafe
+            ├ pom.xml
+            └ src
+                ├ main
+                │   ├ java
+                │   │   └ com
+                │   │       └ mycompany
+                │   │           └ unicafe
+                │   │               ├ Kassapaate.java
+                │   │               ├ Maksukortti.java
+                │   │               └ Paaohjelma.java
+                │   └ resources
+                └ test
+                    └ java
+                        └ com
+                            └ mycompany
+                                └ unicafe
+                                    └ MaksukorttiTest.java
+
+73 directories, 75 files

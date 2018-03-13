@@ -1,0 +1,75 @@
+commit 4dd346b97fadf6ca036616eb6ae61ab6a5e0af1a
+Author: hisahi <sampo.hippelainen@gmail.com>
+Date:   Tue Mar 13 14:00:01 2018 +0200
+
+    modify
+
+ eka.txt    | 8 +++++++-
+ kolmas.txt | 4 ++++
+ 2 files changed, 11 insertions(+), 1 deletion(-)
+
+commit 865da2d9bf43e6c49360916fb9edabea9cae5c6c
+Author: hisahi <sampo.hippelainen@gmail.com>
+Date:   Tue Mar 13 13:57:59 2018 +0200
+
+    rename eka.txt
+
+ eka.txt      | 1 +
+ tiedosto.txt | 1 -
+ 2 files changed, 1 insertion(+), 1 deletion(-)
+
+commit 8a693f3ecca983b927dc00aa1ae1556dbd2b1168
+Author: hisahi <sampo.hippelainen@gmail.com>
+Date:   Tue Mar 13 13:57:36 2018 +0200
+
+    remove toinen.txt
+
+ toinen.txt | 1 -
+ 1 file changed, 1 deletion(-)
+
+commit ffe360ff623b5488648507922a2f8326db30cae6
+Author: hisahi <sampo.hippelainen@gmail.com>
+Date:   Tue Mar 13 13:56:39 2018 +0200
+
+    create folder stuff
+
+ stuff/jokin_tiedosto.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit eaeddff3765dd220589a3943b37a33e8d500ca20
+Author: hisahi <sampo.hippelainen@gmail.com>
+Date:   Tue Mar 13 13:56:19 2018 +0200
+
+    modify toinen.txt and kolmas.txt
+
+ kolmas.txt | 1 +
+ toinen.txt | 1 +
+ 2 files changed, 2 insertions(+)
+
+commit 6277d99a60a96f01f1f7fe0ed6744759115f2e7b
+Author: hisahi <sampo.hippelainen@gmail.com>
+Date:   Tue Mar 13 13:56:00 2018 +0200
+
+    kolmas.txt
+
+ kolmas.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit ce89841281401d4cd694a839ae59651df18ea33f
+Author: hisahi <sampo.hippelainen@gmail.com>
+Date:   Tue Mar 13 13:54:16 2018 +0200
+
+    muutos ja lisäys
+
+ tiedosto.txt | 1 +
+ toinen.txt   | 0
+ 2 files changed, 1 insertion(+)
+
+commit 57b562e87886f92a2ac987f1f30e76ce20c8ceda
+Author: hisahi <sampo.hippelainen@gmail.com>
+Date:   Tue Mar 13 13:53:31 2018 +0200
+
+    tiedosto.txt luotu
+
+ tiedosto.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
