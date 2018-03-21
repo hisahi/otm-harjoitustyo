@@ -86,4 +86,22 @@ public class KassapaateTest {
         assertEquals(paate.edullisiaLounaitaMyyty(), 0);
         assertEquals(paate.maukkaitaLounaitaMyyty(), 0);
     }
+    
+    @Test
+    public void kassapaatteeltaVoiLadataKortille() {
+        Maksukortti kortti = new Maksukortti(300);
+        assertEquals(paate.kassassaRahaa(), 100000); // 1000.00
+        paate.lataaRahaaKortille(kortti, 200);
+        assertEquals(paate.kassassaRahaa(), 100200); // 1002.00
+        assertEquals(kortti.saldo(), 500);
+    }
+    
+    @Test
+    public void kassapaatteeltaNegatiivinenLatausEiMuutaSaldoa() {
+        Maksukortti kortti = new Maksukortti(300);
+        assertEquals(paate.kassassaRahaa(), 100000); // 1000.00
+        paate.lataaRahaaKortille(kortti, -200);
+        assertEquals(paate.kassassaRahaa(), 100000); // 1000.00
+        assertEquals(kortti.saldo(), 300);
+    }
 }
